@@ -1,0 +1,208 @@
+
+/*.parallax__group:nth-child(3) {
+    
+    
+    
+    .parallax__layer-back {
+         z-index: -3;
+        
+    }
+    
+    .bg {
+        
+        z-index: -3;
+        
+    position: relative;
+    top: 0;
+    left: 100%;
+    min-height: 100vh;
+    width: 100vw;
+        transform: translateZ(-3px);
+    background-size: cover;
+    background: repeating-linear-gradient(
+        135deg,
+        $morepain-color-stripe-1,
+        $morepain-color-stripe-1 2px,
+        $morepain-color-stripe-2 2px,
+        $morepain-color-stripe-2 4px);
+     
+        
+    }
+    
+    
+}*/
+
+.bg-morepain {
+    
+       
+        background: repeating-linear-gradient(
+        135deg,
+        $morepain-color-stripe-1,
+        $morepain-color-stripe-1 2px,
+        $morepain-color-stripe-2 2px,
+        $morepain-color-stripe-2 4px);
+        background-size: cover;
+//    z-index: -1;
+   transform: translateY(200vh); //go over the first 2 sections
+
+        
+    
+     
+}
+
+.morepain {
+
+
+    color: #fff;
+    font-family: Lato-Medium;
+    
+    
+    .content {
+        
+        height: 100%;
+        
+    }
+    
+    
+    .container {
+
+
+    background: #7f7f7f;
+    padding: 1% 1% 0 1%;
+    font-size: 2.25vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+        
+    }
+    
+    blockquote {
+    
+    
+    background: #7f7f7f;
+        
+    padding: 2% 5% 10% 5%;
+    text-align: center;
+    border: 3px solid #fff;
+    quotes: "\201C""\201D";
+        height: 100%;
+
+    
+    }
+
+    blockquote:before {
+
+        color: rgba(198, 178, 11, 0.7);
+        content: open-quote;
+        font-size: 10em; //
+        line-height: 0;
+        position: absolute;
+        top:-5%;
+        left:0;
+
+       transform: scale(-1,-1);
+
+
+    }
+
+    blockquote:after {
+
+
+        color: rgba(198, 178, 11, 0.7);
+        content: open-quote;
+        font-size: 10em; //
+        line-height: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+    }
+
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width:1280px) {
+    
+    .morepain .container {
+        
+        color: greenyellow;
+        width: 70%;
+    }
+    
+
+    
+    @media screen and (max-height: 600px) {
+        
+    blockquote {
+        
+        font-size: 14px;
+    }
+        
+    }
+    
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+
+    .morepain .container {
+
+        width: 70%;
+    }
+    
+    blockquote {
+        
+        font-size: 14px;
+    }
+    
+
+
+}
+
+@media screen and (max-width:425px) {
+    
+    .morepain .container {
+        
+        color: #fff;
+        width: 70%;
+        height: 70%;
+
+        
+    }
+    .morepain {
+        
+        blockquote {
+
+        font-size: 3vmin;
+
+    }
+
+        blockquote:before{
+
+        font-size: 7.5em;
+        top: -4% ;
+        left: -4%; 
+
+
+    }
+
+        blockquote:after{
+
+        font-size: 7.5em; 
+        bottom: -4%;
+        right: -4%;
+    }
+
+
+        
+    }
+
+     
+    
+
+    
+}
+
+

@@ -1,0 +1,66 @@
+.social {
+    
+
+//    margin-right: -30px;
+    background: url("../../assets/img/social_icons.png") no-repeat;
+    display: inline-block;
+    background-size: cover;
+    margin: 0 5px;
+    width: 31px;
+    height: 30px;
+
+    
+
+    
+    &:hover, &:focus, &:active {
+        
+        
+        border-radius: 10%;
+        background-color: $social-color-overlay;
+        
+    }
+    
+
+}
+
+.social-instagram {
+    
+    
+    background-position: 0px 0px;
+    
+    
+}
+
+.social-facebook {
+    
+    background-position: -33px 0px;
+    
+    
+}
+
+.social-pict {
+
+
+    background-position: -66px 0px;
+
+
+}
+
+.social-bee {
+    
+
+    background-position: -100px 0px;
+    
+    
+}
+
+@media screen and (max-width: 716px) {
+    
+    li .social {
+        
+        margin-top: 10px;
+        
+    }
+    
+    
+}

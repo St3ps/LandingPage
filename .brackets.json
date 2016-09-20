@@ -1,0 +1,18 @@
+{
+    "sass.enabled": false,
+    "sass.compiler": "libsass",
+    "path": {
+        "assets/scss/main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../../public/css/",
+                "imagePath": null,
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false,
+            "malas34.brackets-consoleplus.opened": false,
+            "linting.SCSS.collapsed": true
+        }
+    }
+}

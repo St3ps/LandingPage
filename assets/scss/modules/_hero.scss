@@ -1,0 +1,396 @@
+
+.bg-hero {
+        
+    background: 
+    linear-gradient(
+      $hero-color-overlay,
+      $hero-color-overlay
+    ),
+   
+    url("../../assets/img/bg_hero.jpg") no-repeat center  center ;
+    background-size: cover, cover; 
+        
+        
+//    transform: scaleX(1);
+    }
+    
+
+
+ul {
+    
+    list-style: none;
+    padding: 1%; 
+//    padding-top: 1%;
+    margin-bottom: 0%;
+        
+}
+
+li {
+    
+    margin-left: 2%;
+    margin-right: 2%; 
+    display: inline-block;
+    vertical-align: middle;
+//    margin-top: 1%;
+    
+    
+    
+}
+
+.hero {
+
+    font-size: 30px;
+    
+
+    h1, h4 {
+    
+    
+    margin: 0; 
+    padding: 0;
+    
+    
+    }
+    
+    a {
+    
+    text-decoration: underline;
+    color: #fff;
+    
+    }
+    
+    h1 {
+    
+    text-transform: uppercase;
+    font-size: 1.5em; 
+    
+    }
+
+    h4 {
+    
+    font-size: 0.66em;
+    
+    }
+
+    h2 {
+    
+    font-size:1em;
+    
+    }
+    
+    .contact {
+
+        margin-top: 10%;
+
+        .phone{
+            font-size: 1.5em;
+        }
+
+        img {
+
+            margin-top: 2.5%;
+
+        }
+
+        a {
+
+            text-decoration: underline;
+        }
+    
+    }
+    
+    .logo {
+    
+    
+    text-align: center;
+    }
+    
+    .sentences {
+    
+    
+    margin-top: 5%;
+    
+
+    
+    }
+
+    
+
+}
+
+.hero .row:nth-child(1) {
+    
+    margin-top: 2%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    
+    padding: 0 15%;
+    margin-top: 10%;
+    
+    background-color: #c5820c;
+    border: 4px solid #fff;
+    
+    text-transform: uppercase;
+    
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 28px;
+    height: 3em;
+    
+}
+
+.top-contacts {
+    
+    font-family: 'Lato-Light' !important;
+    font-size: 1em;
+    display: none;
+    color: #fff;
+    background: rgba(55,55,55, 0.5);
+    text-align: center;
+    
+
+    
+    
+}
+
+
+
+
+@media screen and  (min-width: 768px)  {
+    
+    .hero .row {
+        
+        text-align: right;
+        
+    }
+    
+    
+    
+    
+    
+}
+@media screen and  (max-width: 1200px) {
+    
+
+    .hero {
+        
+            margin-left: auto; 
+            margin-right: auto; 
+            font-size: 25px;
+            color: limegreen;
+        
+        button {
+
+        font-size: 0.5em;
+        
+        }
+    
+
+   
+    }
+
+
+    .parallax__group:nth-child(1) {
+        
+        
+    }
+    
+    
+    @media screen and (max-height: 612px) {
+        
+        .sentences {
+
+            margin-top: 10%;
+            margin-bottom: 10%;
+
+        }
+
+        .parallax__group:nth-child(1) {
+
+//            color: red;
+//            height: 200vh;
+
+        }
+        
+    }
+    
+    
+    
+}
+
+@media screen and  (max-width: 767px) {
+    
+
+    .hero {
+            
+            text-align: center;
+            color: white; 
+            margin-left: auto; 
+            margin-right: auto; 
+            text-align: center;
+            font-size: 20px;
+        
+        
+        .contact {
+
+            display: none;
+
+
+        }
+        
+        img {
+        
+        width: 105%;
+        height: 55%;
+        
+        
+        }
+        
+        .logo {
+        
+        margin-bottom: 2%;
+        
+        }
+        
+        .top-contacts {display:inline;}
+        
+        button {
+        
+        font-size: 0.8em;
+        
+        }
+
+        
+   
+    }
+    
+    
+
+    
+    .parallax__group:nth-child(1) { 
+    
+            height: 140vh;
+        
+   
+    
+    }
+    
+    
+    @media screen and (max-height: 612px) { }
+    
+
+        
+
+    
+}
+@media screen and  (min-width: 650px)  and (max-width: 767px){
+ 
+    
+    .hero img {
+        
+        width: 75%;
+    }
+    
+}
+@media screen and  (min-width: 426px)  and (max-width: 767px){
+    
+    .hero .content {
+            
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        width: 75%;
+            
+            
+        }
+    
+        @media screen and  (max-height: 2000px) { 
+            
+//            .hero .bg {background-size: cover; }
+    
+
+    }
+    
+}
+
+
+@media screen and  (max-width: 425px) {
+    
+    
+    .hero {
+    
+        button {
+
+            font-size: 0.6em;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+
+        }
+    
+         .content {
+
+
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 75%;
+
+        }
+        
+    }
+    
+    @media screen and  (max-height: 618px) {
+        
+        .hero  {
+            
+            .content {
+                
+                
+                width: 50%;
+                font-size: 14px;
+            }
+            
+        }
+    
+
+    }
+    
+
+    
+    
+    
+}
+
+
+
+@media screen and (max-height: 412px) {
+    
+//        .parallax__group:nth-child(1) {
+//        
+//        color: red;
+//        height: 155vh;
+//        
+//    }
+    
+    
+    
+}

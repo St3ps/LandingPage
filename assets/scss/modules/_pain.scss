@@ -1,0 +1,307 @@
+
+
+.pain {
+    
+    background: url("../../assets/img/bg_pain.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    
+    .container {
+    
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 2% 2%;
+//    border: 2px solid rgba(22,22,22, 0.2);
+    
+    }
+    
+    .container:before {
+        
+        width: 50%;
+        min-height: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-left: 2px solid $pain-color-secondary;
+        border-top: 2px solid $pain-color-secondary;
+        
+    }
+    
+    .container:after {
+        
+        width: 65%;
+        min-height: 65%;
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-right: 2px solid $pain-color-secondary;
+        border-bottom: 2px solid $pain-color-secondary;
+        
+    }
+        
+    .txt {
+    
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-family: "Lato-Bold";
+    
+    }
+
+     .content {
+    
+    
+//    background: #444;
+    padding: 0;
+    position: relative;
+    height: $pain-content-height;
+    font-size: $pain-fontsize-ref;
+        }
+
+    
+}
+
+    
+
+
+
+
+.txt-pos-04 {
+    
+    font-family: "Lato-Medium" !important;
+    
+}
+
+.txt-pos-01 {
+    
+    font-size: $pain-fontsize-2;
+    line-height: 0.79;
+    top: 0;
+    left: 0;
+    letter-spacing: -1px;
+
+}
+
+.txt-pos-02 {
+    
+    font-size: $pain-fontsize-4;
+    top: 3.2em;
+    left: 0;
+    
+        
+    
+}
+
+.txt-pos-03 {
+    
+    font-size: $pain-fontsize-3;
+    top: 2.1em;
+    left: 4em;
+    text-indent: 3.2em;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    
+    
+    
+}
+
+.txt-pos-04 {
+    
+    font-size: $pain-fontsize-1;
+    top: 2.8em;
+    left: 3em;
+    line-height: 1;
+    letter-spacing: -1px;
+    
+        
+    
+}
+
+
+.txt-pos-05 {
+    
+    font-size: $pain-fontsize-d-3;
+    top: 7.5em;
+    left: 7.25em;
+    letter-spacing: 0.05em
+    
+    
+}
+
+.txt-pos-06 {
+    
+    font-size: $pain-fontsize-d-5;
+    top: 9.5em;
+    left: 0;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-07 {
+    
+    font-size: $pain-fontsize-d-2;
+    top: 7.2em;
+    left: 15em;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-08 {
+    
+    font-size: $pain-fontsize-d-2;
+    top: 8.3em;
+    left: 1.75em;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-09 {
+    
+    font-size: $pain-fontsize-d-7;
+    top: 13em;
+    left: 26em;
+    letter-spacing: 0.04em;
+
+    
+    
+    
+}
+
+.txt-pos-10 {
+    
+    font-size: $pain-fontsize-d-7;
+    top: 14.3em;
+    left: 1.5em;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-11 {
+    
+    font-size: $pain-fontsize-d-8;
+    top: 19.5em;
+    left: 30.3em;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-12 {
+    
+    font-size: $pain-fontsize-d-1;
+    top: 7.5em;
+    left: 2em;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-13 {
+    
+    font-size: $pain-fontsize-d-7;
+    top: 17.7em;
+    left: 2.5em;
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-14 {
+    
+    font-size: $pain-fontsize-d-4;
+    top: 14.25em;
+    left: 16em; 
+    letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-15 {
+    
+        font-size: $pain-fontsize-d-2;
+        top: 12.7em;
+        left: 3em; 
+        letter-spacing: 0.04em;
+    
+    
+}
+
+.txt-pos-16 {
+    
+    
+    font-size: $pain-fontsize-d-6;
+    bottom: 0;
+    right: 0;
+    text-transform: uppercase;
+    white-space: normal !important;
+    width: $pain-container-width/1.5;
+    text-align: right;
+    
+    
+}
+
+
+
+@media screen and  (max-width: 680px) {
+    
+    
+    .pain {
+        
+         .content {
+
+                font-size: 1.8vw;
+                height: $pain-content-height + 40;
+
+            }
+        
+        .container {
+        
+        width:$pain-container-width + 20;
+        
+        
+        }
+        
+        .txt {
+        
+        white-space: normal;
+        
+
+        }
+        
+    }
+    
+
+    
+    .txt-pos-04 { left: 0.2em; white-space: nowrap !important;}
+    .txt-pos-05 { top: 7em; }
+    .txt-pos-06 { top: 9em; }
+    .txt-pos-07 { top: 6em; width: 5em; }
+    .txt-pos-08 { top: 7.9em; }
+    .txt-pos-09 { top: 17em; left: 22em; width: 10em; }
+    .txt-pos-10 { top: 13.8em;}
+    .txt-pos-11 { font-size: 1.2em; top: 21.5em; left: 25.3em; width: 9em; line-height: 1.2em; }
+    .txt-pos-12 { line-height: 1em;}
+    .txt-pos-13 { top: 18.75em; left: 1em;}
+    .txt-pos-14 { top: 15.35em; left:0; }
+    .txt-pos-15 { top: 14em; left: 2em; width: 12em; line-height: 1em;}
+    .txt-pos-16 {}
+        
+}
+
+
+
+
+
+

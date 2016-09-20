@@ -1,0 +1,115 @@
+.relief {
+    
+    margin-top: 4%;
+    color: #000;
+    
+}
+
+.relief .bg {
+    
+    height: 100%;
+    background: url("../../assets/img/relief_bg_sharp.jpg") no-repeat center center;
+    background-size: cover;
+//    transform: scale(1.2);
+    
+    
+}
+
+.relief .container {
+ 
+    
+        background: rgba(255, 255, 255, 0.86);
+        padding: 1% 1%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 73.333%;
+        
+}
+
+.relief .content {
+    
+    text-align: center;
+    border: 2px solid $relief-color-secondary;
+    padding: 2% 2%;
+    height: 100%;
+    font-size: 30px;
+        
+    
+    h1, span { font-size: 1.6em; color: $relief-color-secondary;}
+    
+    h1 { text-transform: uppercase; }
+    
+    h4 {font-size: 0.8em; }
+    
+    .guarantee {
+            
+            font-size: 0.933em;
+            font-family: 'Lato-Regular';
+            
+        }
+    
+    
+    
+}
+
+
+@media screen and (min-width:1280px) { }
+@media screen and (min-width:768px) and (max-width:1280px) {
+    
+    .relief .content { 
+        
+        
+//        color: red; 
+        
+        font-size:12px; 
+ }
+    
+}
+
+@media screen and (min-width:416px) and (max-width:768px) {
+    
+    .relief .content {
+        
+//        color: blue;
+        font-size:12px;
+
+        
+        
+    }
+    
+        .relief .container {
+        
+        
+        min-width: 90.00%;
+        
+    }
+    
+    
+    
+    
+}
+
+@media screen and  (max-width:415px) {
+    
+    .relief .content {
+        
+//        color: green;
+        font-size:11px;
+
+        
+        
+    }
+    
+    .relief .container {
+        
+        
+        min-width: 90.00%;
+        
+    }
+    
+    
+    
+    
+}
