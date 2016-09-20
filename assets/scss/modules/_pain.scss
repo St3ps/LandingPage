@@ -23,8 +23,9 @@
     
     .container:before {
         
-        width: 50%;
+        width: 40%;
         min-height: 50%;
+        margin: -2%;
         display: inline-block;
         position: absolute;
         top: 0;
@@ -36,8 +37,9 @@
     
     .container:after {
         
-        width: 65%;
+        width: 52.5%;
         min-height: 65%;
+        margin: -2%;
         display: inline-block;
         position: absolute;
         bottom: 0;
