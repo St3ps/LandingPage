@@ -53,9 +53,6 @@ body {
 .parallax__group:nth-child(3) {
   height: 62vh; }
 
-.parallax__group:nth-child(4) {
-  height: 110vh; }
-
 .parallax__layer {
   z-index: -1;
   position: absolute;
@@ -108,19 +105,17 @@ body {
   background: linear-gradient(rgba(61, 75, 78, 0.33), rgba(61, 75, 78, 0.33)), url("../../assets/img/bg_hero.jpg") no-repeat center center;
   background-size: cover, cover; }
 
-ul {
-  list-style: none;
-  padding: 1%;
-  margin-bottom: 0%; }
-
-li {
-  margin-left: 2%;
-  margin-right: 2%;
-  display: inline-block;
-  vertical-align: middle; }
-
 .hero {
   font-size: 30px; }
+  .hero ul {
+    list-style: none;
+    padding: 1%;
+    margin-bottom: 0%; }
+  .hero li {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: middle; }
   .hero h1, .hero h4 {
     margin: 0;
     padding: 0; }
@@ -146,21 +141,20 @@ li {
     text-align: center; }
   .hero .sentences {
     margin-top: 5%; }
+  .hero button {
+    padding: 0 15%;
+    margin-top: 10%;
+    background-color: #c5820c;
+    border: 4px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 28px;
+    height: 3em; }
 
 .hero .row:nth-child(1) {
   margin-top: 2%; }
-
-button {
-  padding: 0 15%;
-  margin-top: 10%;
-  background-color: #c5820c;
-  border: 4px solid #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  width: 100%;
-  font-size: 0.8em;
-  line-height: 28px;
-  height: 3em; }
 
 .top-contacts {
   font-family: 'Lato-Light' !important;
@@ -543,37 +537,38 @@ button {
 .relief {
   margin-top: 4%;
   color: #000; }
+  .relief .bg {
+    height: 100%;
+    background: url("../../assets/img/relief_bg_sharp.jpg") no-repeat center center;
+    background-size: cover; }
+  .relief .container {
+    background: rgba(255, 255, 255, 0.86);
+    padding: 1% 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 73.333%; }
+  .relief .content {
+    text-align: center;
+    border: 2px solid #c5820c;
+    padding: 2% 2%;
+    height: 100%;
+    font-size: 30px; }
+    .relief .content h1, .relief .content span {
+      font-size: 1.6em;
+      color: #c5820c; }
+    .relief .content h1 {
+      text-transform: uppercase; }
+    .relief .content h4 {
+      font-size: 0.8em; }
+    .relief .content .guarantee {
+      font-size: 0.933em;
+      font-family: 'Lato-Regular'; }
 
-.relief .bg {
-  height: 100%;
-  background: url("../../assets/img/relief_bg_sharp.jpg") no-repeat center center;
-  background-size: cover; }
-
-.relief .container {
-  background: rgba(255, 255, 255, 0.86);
-  padding: 1% 1%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 73.333%; }
-
-.relief .content {
-  text-align: center;
-  border: 2px solid #c5820c;
-  padding: 2% 2%;
-  height: 100%;
-  font-size: 30px; }
-  .relief .content h1, .relief .content span {
-    font-size: 1.6em;
-    color: #c5820c; }
-  .relief .content h1 {
-    text-transform: uppercase; }
-  .relief .content h4 {
-    font-size: 0.8em; }
-  .relief .content .guarantee {
-    font-size: 0.933em;
-    font-family: 'Lato-Regular'; }
+@media screen and (min-width: 1280px) {
+  .parallax__group:nth-child(4) {
+    height: 130vh; } }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .relief .content {

@@ -3,19 +3,17 @@
     margin-top: 4%;
     color: #000;
     
-}
-
-.relief .bg {
+    
+    .bg {
     
     height: 100%;
     background: url("../../assets/img/relief_bg_sharp.jpg") no-repeat center center;
     background-size: cover;
-//    transform: scale(1.2);
     
     
-}
+    }
 
-.relief .container {
+    .container {
  
     
         background: rgba(255, 255, 255, 0.86);
@@ -26,9 +24,11 @@
         transform: translate(-50%, -50%);
         min-width: 73.333%;
         
-}
-
-.relief .content {
+    }
+    
+    
+    
+    .content {
     
     text-align: center;
     border: 2px solid $relief-color-secondary;
@@ -52,9 +52,27 @@
     
     
     
+    }   
+    
 }
 
 
+
+
+
+
+@media screen and (min-width:1280px) { 
+
+  
+    
+   .parallax__group:nth-child(4) {
+
+
+        height:130vh;
+
+    }
+
+}
 @media screen and (min-width:1280px) { }
 @media screen and (min-width:768px) and (max-width:1280px) {
     
